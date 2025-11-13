@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #d32f2f; /* Merah */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin-top: 5px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700; /* Kuning lembut saat hover */
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #ffffff; /* Putih */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.welcome h2 {
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+.news-snippet {
+  margin-top: 25px;
+  border-top: 2px solid #eee;
+  padding-top: 15px;
+}
+
+.news-snippet h3 {
+  color: #d32f2f;
+}
+
+.news-snippet p {
+  margin-top: 10px;
+}
+
+.news-content {
+  text-align: justify;
+}
+
+.news-content h2 {
+  color: #d32f2f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  border-top: 5px solid #d32f2f;
+}
+
+.login-container h2 {
+  color: #d32f2f;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #d32f2f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+
+footer {
+  text-align: center;
+  background-color: #d32f2f;
+  color: #fff;
+  padding: 15px 0;
+  margin-top: 30px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
